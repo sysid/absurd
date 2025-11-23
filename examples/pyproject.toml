@@ -1,0 +1,11 @@
+[project]
+name = "absurd-examples"
+version = "0.1.0"
+description = "Examples for the Absurd SDK"
+requires-python = ">=3.9"
+dependencies = [
+    "absurd-sdk",
+]
+
+[tool.uv.sources]
+absurd-sdk = { path = "../sdks/python", editable = true }
